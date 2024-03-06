@@ -1,0 +1,25 @@
+<!--This is a comment tag in HTML! It always starts with !-- and ends with --  The browser will ignore it.-->
+<!DOCTYPE html>
+<!--The DOCTYPE declaration above tells the browser what sort of content to expect. We will always do !DOCTYPE html in this course, so don't worry about it too much-->
+<html>
+    <!--The html tag defines the html element. It typically contains two children: head and body-->
+    <head>
+        <!--In head, we put metadata like the page title and imported styles (coming soon)-->
+        <title>A Website</title>
+    </head>
+    <body>
+        <!--All visible content on a web page are children of the body element-->
+        <h1>Hello cruel World!</h1>
+        <!--h1, h2, h3 all the way to h6 are used as headings. They look bigger by default, but also help search engines and accessibility technology find information-->
+        <p>Welcome <em>to</em> my <strong>cool</strong> website</p>
+        <!--Typically, we put new major elements on new lines and indent them so they match their siblings. With small typographic elements like <em> we might incude them inline as above-->
+        <img
+            width="300"
+            src="https://placehold.co/600x400.png" 
+        />
+        <!--Above, we see our first attributes -- width and src. They modify an element, letting us change how it behaves. -->
+        <a href="about.html">Click me!</a>
+        <!--Here's a hyperlink. You'll need a file called about.html that lives next to this one  to make it work-->
+    </body>
+    <!--All tags (except self-closing tags, like <img/>) need to have a closing tag that starts with a /-->
+</html>
