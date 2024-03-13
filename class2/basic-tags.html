@@ -52,7 +52,7 @@
 
     <div>
       <pre>&#x3C;li&#x3E; &#x3C;ol&#x3E; &#x3C;ul&#x3E;</pre>
-      <ul>
+      <ul class="className">
         <li>1 cup flour</li>
         <li>1 cup flour</li>
         <li>1 cup flour</li>
@@ -102,32 +102,58 @@
     </div>
 
 
-<!--
+
     <h2>
       STRUCTURAL + METADATA (often necessary, but do not render directly on
       page)
     </h2>
-    <pre>
-            &#x3C;body&#x3E;
-            &#x3C;head&#x3E;
-            &#x3C;html&#x3E;
-            &#x3C;link&#x3E;
-            &#x3C;meta&#x3E;
-            &#x3C;script&#x3E;
-            &#x3C;style&#x3E;
-            &#x3C;title&#x3E;
-        </pre
-    >
+
+    <div>
+      <pre>
+        &#x3C;html&#x3E;
+        &#x3C;body&#x3E;
+        &#x3C;head&#x3E;
+      </pre>
+    </div>
+
+    <div>
+      <pre>
+        &#x3C;link&#x3E;
+        &#x3C;meta&#x3E;
+        &#x3C;script&#x3E;
+        &#x3C;style&#x3E;
+        &#x3C;title&#x3E;
+      </pre>
+
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <title>My Site Title</title>
+    </div>
     <h2>FORMS</h2>
-    <pre>
+    <div>
+      <pre>
           &#x3C;input&#x3E;
           &#x3C;form&#x3E;
           &#x3C;label&#x3E;
           &#x3C;textarea&#x3E;
-      </pre
-    >
+      </pre>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+        <label for="email-opt-in">Opt in to emails</label>
+        <input type="checkbox" id="email-opt-in" checked />
+        <input type="radio" id="radio-1" name="radio-group" />
+        <input type="button" value="Click here" />
+        <input type="submit" value="Submit the form" />
+      </form>
+    </div>
 
     <h2>TABLES</h2>
+    <div>
     <pre>
           &#x3C;table&#x3E;
           &#x3C;tbody&#x3E;
@@ -135,7 +161,34 @@
           &#x3C;th&#x3E;
           &#x3C;thead&#x3E;
           &#x3C;tr&#x3E;
-      </pre
-    >-->
+      </pre>
+      <table>
+        <thead>
+          <tr>
+            <th width="200">Name</th>
+            <th width="150">Birthday</th>
+            <th width="300">Favorite food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Joshua</td>
+            <td>May 7</td>
+            <td>Tom Kha Soup</td>
+          </tr>
+          <tr>
+            <td>Kelsey</td>
+            <td>Sept 17</td>
+            <td>Butternut Squash Ravioli</td>
+          </tr>
+          <tr>
+            <td>Mortimer</td>
+            <td>June 15</td>
+            <td>Bread</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
