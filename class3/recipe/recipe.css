@@ -1,0 +1,24 @@
+body {
+    font-size: 24px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2.4em;
+    font-family: "Rubik Glitch Pop", sans-serif;
+}
+
+.title {
+    font-style: italic;
+}
+
+.ingredients {
+    color: blue;
+}
+
+.ingredients li {
+    color: black;
+}
+
+
+
