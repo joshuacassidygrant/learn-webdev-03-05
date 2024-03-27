@@ -1,0 +1,61 @@
+body {
+    background-color: honeydew;
+}
+
+blockquote {
+    background-color: lightgray;
+}
+
+button:disabled {
+    border: 2px dotted yellow;
+}
+
+a[href="https://facebook.com"] {
+    font-weight: bold;
+}
+
+.callout {
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+blockquote a {
+    color: darkgray;
+}
+
+.callout span {
+    color: magenta;
+}
+
+.bold.fancy {
+    text-shadow: 2px 2px 2px yellow;
+}
+
+ul li:first-child {
+    margin-top: 8px;
+}
+
+ul li:last-child {
+    border-bottom: 2px dashed yellowgreen;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+h1, h2 {
+    color: plum;
+}
+
+h1 + h2 {
+    margin-top: 0;
+}
+
+ul > li {
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    color: rebeccapurple;
+}
